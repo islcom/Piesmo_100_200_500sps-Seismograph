@@ -1,0 +1,2 @@
+A single channel seismograph based on Colin Loves "peismo" project https://github.com/colinlove/peismo. It features sampling rates of 100, 200 and 500sps, selectable on/off 25hz low pass filter, 50hz notch filter (selectable) 24hour helicorder operating online or offline and gps PPS for acurate time keeping. The adc used is the 24bit ADS1255.
+One minute dat files are combined into five minute mseed files which are uploaded to the remote server. It is also saved to the raspberry pi sd card. Network connectivity is via wifi. Files are deleted after 90 days.
